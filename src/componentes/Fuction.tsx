@@ -9,7 +9,7 @@ const ConsultaPlaca: React.FC = () => {
     
         const consultarPlaca = async () => {
             try {
-            const token = "489a01ef6cdd47b5c28c38822ea3bdb6"; // substitua pelo seu token de acesso
+            const token = "7a8c396280509ae737a1907a2d092e68"; // substitua pelo seu token de acesso
             const resposta = await consultarPlacaSinesp(placa, token);
             setResultado(resposta);
             setErro("");
