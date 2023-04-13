@@ -68,7 +68,7 @@ interface SinespResponse {
   
 
 export const consultarPlacaSinesp = async (placa: string, token: string) => {
-  const url = `https://wdapi.com.br/placas/${placa}/489a01ef6cdd47b5c28c38822ea3bdb6`;
+  const url = `https://wdapi.com.br/placas/${placa}/7a8c396280509ae737a1907a2d092e68`;
 
   const response = await axios.get<SinespResponse>(url, {
     headers: {
